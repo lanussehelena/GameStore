@@ -6,8 +6,8 @@ const CartaoJogo = ({nome, preco, promocao, emEstoque}) => {
     <div className={emEstoque ? styles.normal : styles.esgotado}>
         <h2>{nome}</h2>
         <p>Preço: {preco}</p>
-        {promocao ? "🔥 PROMOÇÃO!" : ""}
-        {emEstoque ? "🟢 Em estoque" : "⚫ Esgotado"}
+        <p>{promocao ? "🔥 PROMOÇÃO!" : ""}</p>
+        <p>{emEstoque ? "🟢 Em estoque" : "⚫ Esgotado"}</p>
     </div>
   )
 }

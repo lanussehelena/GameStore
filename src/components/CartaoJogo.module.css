@@ -1,10 +1,12 @@
 .normal {
     border: 2px solid blue;
     border-radius: 8px;
+    width: 300px;
 }
 
 .esgotado {
     border: 2px solid grey;
     border-radius: 8px;
     color: grey;
+    width: 300px;
 }
