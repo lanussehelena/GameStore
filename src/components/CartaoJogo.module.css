@@ -1,0 +1,10 @@
+.normal {
+    border: 2px solid blue;
+    border-radius: 8px;
+}
+
+.esgotado {
+    border: 2px solid grey;
+    border-radius: 8px;
+    color: grey;
+}
